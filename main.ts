@@ -8,7 +8,7 @@
 
 
 // variables
-let distanceNumber: number = 0
+let distanceNumber: number =  0
 let neopixelStrip: neopixel.Strip = null
 
 
