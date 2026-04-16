@@ -6,11 +6,9 @@
 * This program uses the distance sensor and saves the current distance in cm to a variable.
 */
 
-
 // variables
 let distanceNumber: number =  0
 let neopixelStrip: neopixel.Strip = null
-
 
 //setup
 basic.clearScreen()
@@ -21,7 +19,6 @@ neopixelStrip.setPixelColor(2, neopixel.colors(NeoPixelColors.Black))
 neopixelStrip.setPixelColor(3, neopixel.colors(NeoPixelColors.Black))
 neopixelStrip.show()
 basic.showIcon(IconNames.Happy)
-
 
 // gets the distance
 input.onButtonPressed(Button.A, function () {
